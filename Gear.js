@@ -1,4 +1,4 @@
-let obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 obj = {
   "status": 0,
   "environment": "Production",
