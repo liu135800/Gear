@@ -1,7 +1,3 @@
-# Gear解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body Gear.js
-
-
 let obj = JSON.parse($response.body);
 obj = {
   "status": 0,
